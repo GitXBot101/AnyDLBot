@@ -4,13 +4,13 @@ import os
 
 class Config((object)):
     # get a token from @BotFather
-    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6500213817:AAFOVRZhiW9vti0CN705Qe4TevEnwlNV_Zo")
+    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
     # The Telegram API things
-    APP_ID = int(os.environ.get("APP_ID", 25918874))
-    API_HASH = os.environ.get("87c7c525932cf3d753bea33786ad71ee")
+    APP_ID = int(os.environ.get("APP_ID", 12345))
+    API_HASH = os.environ.get("API_HASH")
     # Get these values from my.telegram.org
     # Array to store users who are authorized to use the bot
-    AUTH_USERS = {int(x) for x in os.environ.get("AUTH_USERS", "5179011789").split()}
+    AUTH_USERS = {int(x) for x in os.environ.get("AUTH_USERS", "").split()}
     # Banned Unwanted Members..
     BANNED_USERS = {int(x) for x in os.environ.get("BANNED_USERS", "").split()}
     # the download location, where the HTTP Server runs
@@ -37,7 +37,7 @@ class Config((object)):
     # watermark file
     DEF_WATER_MARK_FILE = ""
     # Sql Database url
-    DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://ultron:ultron@cluster0.pnaaxsa.mongodb.net/?retryWrites=true&w=majority")
+    DB_URI = os.environ.get("DATABASE_URL", "")
     # dict to hold Google Drive SignIns
     G_DRIVE_AUTH_DRQ = {}
     # g_drive
