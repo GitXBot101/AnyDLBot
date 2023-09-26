@@ -29,26 +29,28 @@ cp sample_config.py config.py
 python bot.py
 ```
 ## Bot Commands
+```
+start - Check the bot is online or not.
+help - 🆘Need help
+me - 🕵️‍♂️Your details
+ren - Rename files 📂📁
+sshot - Screenshots 📸
+c2v - 📂 to📽
+c2f - 📽 to 📂
+c2a - Convert telegram video file into audio
+trim - Trim video 🎞
+tsh - ⚡️Get transfer.sh link of telegram file.
+anon - ⚡️Get anonfiles.com link of telegram file.
+bay - ⚡️Get bayfiles.com link of telegram file.
+go - ⚡️Get gofile.io link of telegram file.
+storageinfo - 💾Use this command to check saved file.
+gencustomthumb - Generate customer thumbnail.
+downloadmedia - 🔽Reply with the file you want to upload to the bot server.
+clearffmpegmedia - 🗑️Use this command to delete saved media in the bot.
+showthumb - 👀Show saved thumbnails.
+delthumb - 🗑delete saved thumbnails
 
-- start - Check the bot is online or not.
-- help - 🆘Need help
-- me - 🕵️‍♂️Your details
-- ren - Rename files 📂📁
-- sshot - Screenshots 📸
-- c2v - 📂 to📽
-- c2f - 📽 to 📂
-- c2a - Convert telegram video file into audio
-- trim - Trim video 🎞
-- tsh - ⚡️Get transfer.sh link of telegram file.
-- anon - ⚡️Get anonfiles.com link of telegram file.
-- bay - ⚡️Get bayfiles.com link of telegram file.
-- go - ⚡️Get gofile.io link of telegram file.
-- storageinfo - 💾Use this command to check saved file.
-- gencustomthumb - Generate customer thumbnail.
-- downloadmedia - 🔽Reply with the file you want to upload to the bot server.
-- clearffmpegmedia - 🗑️Use this command to delete saved media in the bot.
-- showthumb - 👀Show saved thumbnails.
-- delthumb - 🗑delete saved thumbnails.
+```
 
 For FeedBack and Suggestions, please feel free to say in [@SpEcHlDe](https://telegram.dog/SpEcHlDe)
 
