@@ -26,6 +26,10 @@
       "description": "Your bot token, as a string.",
       "value": ""
     },
+    "DATABASE_URL": {
+      "description": "ADD Your SQL DATABASE_URL.",
+      "value": ""
+    },
     "APP_ID": {
       "description": "Get this value from https://my.telegram.org",
       "value": ""
